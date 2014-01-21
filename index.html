@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap-select.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
@@ -19,17 +20,83 @@
 		<script src="js/nav.js"></script>
 		<script src="js/main.js"></script>
 
-		<div>
-			<ul id="main_menu" class="nav nav-pills">
-				<li class="active"><a href="#index">Home</a></li>
-				<li><a href="#clicklog">ClickLog</a></li>
-			</ul>
-		</div>
+		<!-- header -->
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">TravelGuide</a>
+  </div>
+  
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+			</nav>
 
-		<div class="panel panel-default">
-			<div class="panel-body">
-				hello world
+
+		<section id="top">
+			<div class="jumbotron">
+			    <div class="container">
+		        	<h1>旅のしおり</h1>
+        			<p>- 試される大地 - </p>
+		    	</div>
 			</div>
-		</div>
+			
+			<div class="content">
+			<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        	Member
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        text
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Schedule
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+      		旅行のスケジュールを確認できます。
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        	Map
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+      	test
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+		</section>
+		
 	</body>
 </html>

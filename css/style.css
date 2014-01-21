@@ -1,7 +1,7 @@
-.content {
-	width: 100%;
+section#top {
+	padding-top: 50px;
 }
 
-.form {
-	width: 290px;
+.content {
+	margin: 10px;
 }
