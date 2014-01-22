@@ -7,15 +7,14 @@ var controller = function() {
 	var set_view_change_handler = function() {
 		$("body").on("click", "a.change-view", function(e){
 			e.preventDefault();
-			var content = get_content($(this).attr("data-to"));
-			console.log(content);
+			change_content($(this).attr("data-to"));
 		});
 	}
 
-	var get_content = function(to) {
-		var result;
-		$.get("./" + to + ".html", function(data){resulst = data});
-		return result;
+	var change_content = function(to) {
+		$.get("./" + to + ".html", function(data){
+			$("#contents-area").html(data);
+		});
 	}
 	
 	return {
