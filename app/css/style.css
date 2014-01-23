@@ -5,3 +5,8 @@
 .content {
 	margin: 10px;
 }
+
+#map {
+	min-height: 320px;
+	width: 320px;
+}
