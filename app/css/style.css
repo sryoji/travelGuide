@@ -14,10 +14,23 @@
 .my-modal-header {
 	background-color: #f2dede;
 	border-color: #eed3d7;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
-     border-top-left-radius: 5px;
-     border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+}
+
+.go {
+	float: right;
+}
+
+.go :after{
+	content: "";
+	clear: both;
+}
+
+button.go {
+	padding: 0px 20px 0px 20px;
 }

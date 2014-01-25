@@ -28,9 +28,9 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a class="change-view" href="#" data-to="member">Member</a></li>
-						<li><a href="#">Schedule</a></li>
-						<li><a href="#">Map</a></li>
-						<li><a href="#">Links</a></li>
+						<li><a class="change-view" href="#" data-to="schedule">Schedule</a></li>
+						<li><a class="change-view" href="#" data-to="map">Map</a></li>
+						<li><a class="change-view" href="#" data-to="links">Links</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -53,13 +53,16 @@
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 									Member
 								</a>
+								<a class="change-view" href="#" data-to="member">
+								<span class="glyphicon glyphicon-chevron-right go"></span>
+								</a>
 							</h4>
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
-								旅行の参加者が確認できます。
+								<p>旅行の参加者が確認できます。</p>
 								<a class="change-view" href="#" data-to="member">
-								<button type="button" class="btn btn-danger btn-xs">Go <span class="glyphicon glyphicon-chevron-right"></span></button>
+								<button type="button" class="btn btn-danger btn-xs go"><strong>GO</strong></button>
 								</a>
 							</div>
 						</div>
@@ -71,13 +74,16 @@
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 									Schedule
 								</a>
+								<a class="change-view" href="#" data-to="schedule">
+								<span class="glyphicon glyphicon-chevron-right go"></span>
+								</a>
 							</h4>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse">
 							<div class="panel-body">
-									旅行のスケジュールを確認できます。
-									<a>
-								<button type="button" class="btn btn-success btn-xs">Go <span class="glyphicon glyphicon-chevron-right"></span></button>
+								<p>旅行のスケジュールを確認できます。</p>
+								<a class="change-view" href="#" data-to="schedule">
+								<button type="button" class="btn btn-success btn-xs go"><strong><strong>GO</strong></strong></button>
 								</a>
 							</div>
 						</div>
@@ -89,13 +95,16 @@
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 									Map
 								</a>
+								<a class="change-view" href="#" data-to="map">
+								<span class="glyphicon glyphicon-chevron-right go"></span>
+								</a>
 							</h4>
 						</div>
 						<div id="collapseThree" class="panel-collapse collapse">
 							<div class="panel-body">
-								地図です。ラーメン屋さんを探すのに便利です。
-								<a>
-								<button type="button" class="btn btn-info btn-xs">Go <span class="glyphicon glyphicon-chevron-right"></span></button>
+								<p>地図です。ラーメン屋さんを探すのに便利です。</p>
+								<a class="change-view" href="#" data-to="map">
+								<button type="button" class="btn btn-info btn-xs go"><strong>GO</strong></button>
 								</a>
 							</div>
 						</div>
@@ -107,13 +116,16 @@
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
 									Links
 								</a>
+								<a class="change-view" href="#" data-to="links">
+								<span class="glyphicon glyphicon-chevron-right go"></span>
+								</a>
 							</h4>
 						</div>
 						<div id="collapseFour" class="panel-collapse collapse">
 							<div class="panel-body">
-								リンク集。ホテル、ゲレンデなどなど。
-								<a>
-								<button type="button" class="btn btn-warning btn-xs">Go <span class="glyphicon glyphicon-chevron-right"></span></button>
+								<p>リンク集。ホテル、ゲレンデなどなど。</p>
+								<a class="change-view" href="#" data-to="links">
+								<button type="button" class="btn btn-warning btn-xs go"><strong>GO</strong></button>
 								</a>
 							</div>
 						</div>
