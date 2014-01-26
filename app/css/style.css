@@ -49,3 +49,8 @@ div.schedule-area {
 	width: 100%;
 	z-index: 100;
 }
+
+.schedule-time {
+	margin-right: 30px;
+	font-weight: bold;
+}
