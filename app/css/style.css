@@ -1,3 +1,19 @@
+.panel-purple {
+	border-color: #eed3d7;
+}
+
+.panel-purple .panel-heading{
+	color: #563d7c;
+	background-color: #cdbfe3;
+	border-color: #463265;
+}
+
+.btn-purple {
+	color: #fff;
+	background-color: #563d7c;
+	border-color: #463265;
+}
+
 .contents-area {
 	padding-top: 50px;
 }
