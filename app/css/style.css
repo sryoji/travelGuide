@@ -34,3 +34,23 @@
 button.go {
 	padding: 0px 20px 0px 20px;
 }
+
+div.schedule-area {
+	margin: 50px 10px 0px 10px; 
+	height: 370px;
+	overflow: auto;
+	position: relative;
+}
+
+#navbar-schedule {
+	position: fixed;
+	top: 50px;
+	background-color: white;
+	width: 100%;
+	z-index: 100;
+}
+
+.schedule-time {
+	margin-right: 30px;
+	font-weight: bold;
+}
