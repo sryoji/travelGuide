@@ -2,6 +2,12 @@
 	border-color: #eed3d7;
 }
 
+.panel-purple a{
+	color: #563d7c;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .panel-purple .panel-heading{
 	color: #563d7c;
 	background-color: #cdbfe3;
