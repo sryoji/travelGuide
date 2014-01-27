@@ -1,2 +1,16 @@
 <div id="map"></div>
-<script src="js/map.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		map_controller.init();
+	});	
+</script>
+
+<div class="btn-group">
+	<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+		<span class="glyphicon glyphicon-cutlery"></span><span> グルメ </span>
+		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+		<li><a href="ramen">ラーメン</a></li>
+	</ul>
+</div>
