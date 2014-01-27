@@ -3,7 +3,163 @@
 		{
 			"name" : "初代　社",
 			"address": "北海道北斗市七重浜７－１１－１",
-			"text": "わーおさんおすすめ"
+			"latitude": 41.818084,
+			"longitude": 140.699574,
+			"text": "わーおさんおすすめ",
+			"url": "http://www.hotpepper.jp/strJ000734057/"
+		},
+		{
+			"name" : "菜々兵衛",
+			"address": "北海道札幌市白石区川下3条4丁目3-21",
+			"latitude": 43.049475,
+			"longitude": 141.445955,
+			"text": "NAVER 1位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010301/1009634/"
+		},
+		{
+			"name" : "高橋",
+			"address": "北海道札幌市豊平区月寒東1条19-2-72 伸光ビル 1F",
+			"latitude": 43.012144,
+			"longitude": 141.420239,
+			"text": "NAVER 2位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1009886/"
+		},
+		{
+			"name" : "麺屋 彩味",
+			"address": "北海道札幌市豊平区美園十条5丁目3-3",
+			"latitude": 43.043293,
+			"longitude": 141.389544,
+			"text": "NAVER 3位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1000018/"
+		},
+		{
+			"name" : "麺eiji 平岸ベース",
+			"address": "北海道札幌市豊平区平岸2条11丁目1-12",
+			"latitude": 43.029391,
+			"longitude": 141.366308,
+			"text": "NAVER 4位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1034678/"
+		},
+		{
+			"name" : "麺や けせらせら",
+			"address": "北海道札幌市北区太平7-5-2-5",
+			"latitude": 43.130612,
+			"longitude": 141.355008,
+			"text": "NAVER 5位",
+			"url": "http://tabelog.com/hokkaido/A0102/A010201/1009525/"
+		},
+		{
+			"name" : "らーめん 佳",
+			"address": "北海道札幌市豊平区月寒西1条7丁目8-19",
+			"latitude": 43.029656,
+			"longitude": 141.395483,
+			"text": "NAVER 6位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1007919/"
+		},
+		{
+			"name" : "なかじま",
+			"address": "北海道札幌市北区北35条西4丁目1-1 サトービル１F",
+			"latitude": 43.10196,
+			"longitude": 141.341422,
+			"text": "NAVER 7位",
+			"url": "http://tabelog.com/hokkaido/A0102/A010201/1028821/"
+		},
+		{
+			"name" : "侘助",
+			"address": "北海道札幌市東区北21条東16-2-29",
+			"latitude": 43.090824,
+			"longitude": 141.373645,
+			"text": "NAVER 8位",
+			"url": "http://tabelog.com/hokkaido/A0102/A010202/1014873/"
+		},
+		{
+			"name" : "さっぽろ純連",
+			"address": "北海道札幌市豊平区平岸二条17丁目1-41",
+			"latitude": 43.055778,
+			"longitude": 141.366992,
+			"text": "NAVER 9位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1000031/"
+		},
+		{
+			"name" : "あら焚きとんこつあらとん",
+			"address": "北海道札幌市中央区北十条西21-15-4 札幌場外市場　食堂長屋内",
+			"latitude": 43.068598,
+			"longitude": 141.321295,
+			"text": "NAVER 10位",
+			"url": "http://searesh.main.jp/araton.html"
+		},
+		{
+			"name" : "麺屋 雪風",
+			"address": "北海道札幌市中央区南七条西4-2-6 LC拾壱番館　１Ｆ",
+			"latitude": 43.052204,
+			"longitude": 141.353155,
+			"text": "NAVER 11位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1004868/"
+		},
+		{
+			"name" : "ななし",
+			"address": "北海道札幌市西区琴似一条1丁目6-16",
+			"latitude": 43.079856,
+			"longitude": 141.307643,
+			"text": "NAVER 12位",
+			"url": "http://tabelog.com/hokkaido/A0102/A010204/1000059/"
+		},
+		{
+			"name" : "らーめんてつや",
+			"address": "北海道札幌市中央区南七条西12-2-19 アートＭＳ　１Ｆ",
+			"latitude": 43.050513,
+			"longitude": 141.339159,
+			"text": "NAVER 13位",
+			"url": "http://tetsuya-noodles.com/"
+		},
+		{
+			"name" : "えびそば一幻",
+			"address": "北海道札幌市中央区南7条西9丁目1024-10",
+			"latitude": 43.050875,
+			"longitude": 141.344942,
+			"text": "NAVER 14位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1025072/"
+		},
+		{
+			"name" : "狼スープ",
+			"address": "北海道札幌市中央区南十一条西1-5-1",
+			"latitude": 43.050426,
+			"longitude": 141.346072,
+			"text": "NAVER 15位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010104/1000799/"
+		},
+		{
+			"name" : "山嵐",
+			"address": "北海道札幌市豊平区平岸一条9-6-1",
+			"latitude": 43.031891,
+			"longitude": 141.364321,
+			"text": "NAVER 16位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1003584/"
+		},
+		{
+			"name" : "喜来登",
+			"address": "北海道札幌市中央区南2条西6丁目3-2",
+			"latitude": 43.056894,
+			"longitude": 141.34911,
+			"text": "NAVER 17位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1001849/"
+		},
+		{
+			"name" : "眞麺 穂高",
+			"address": "北海道札幌市厚別区大谷地東4丁目2-15 西村ビル 1F",
+			"latitude": 43.028797,
+			"longitude": 141.456111,
+			"text": "NAVER 18位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010302/1006291/"
+		},
+		{
+			"name" : "赤星",
+			"address": "北海道札幌市中央区南三条西7-7",
+			"latitude": 43.056141,
+			"longitude": 141.34695,
+			"text": "NAVER 19位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010102/1000912/"
 		}
+
 	]
 }

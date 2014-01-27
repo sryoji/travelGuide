@@ -1,7 +1,6 @@
 var map_controller = function() {
 
 	var map;
-	var geo;
 	var data;
 	var marker_list = null;
 
@@ -25,25 +24,23 @@ var map_controller = function() {
 	// 地図上にマーカーを置く
 	var setMarker = function(_point) {
 		var req = {"address": _point.address};
-		geo.geocode(req, function(result, status){
-			var opts = {
-				position: result[0].geometry.location,
-				map: map,
-				title: "<strong>"+ _point.name + "</strong><p>" + _point.text + "</p>"
-			}
-			var marker = new google.maps.Marker(opts);
-			marker_list.push(marker);
-			google.maps.event.addListener(marker, 'click', function(){
-				// 移動
-				map.panTo(marker.getPosition());
-				
-				// 吹き出し表示
-				var infowin = new google.maps.InfoWindow({
-					position: marker.getPosition(),
-					content: marker.getTitle()
-				});
-				infowin.open(map);
+		var opts = {
+			position: new google.maps.LatLng(_point.latitude, _point.longitude),
+			map: map,
+			title: "<strong>"+ _point.name + "</strong><p>" + _point.text + "</p>"
+		}
+		var marker = new google.maps.Marker(opts);
+		marker_list.push(marker);
+		google.maps.event.addListener(marker, 'click', function(){
+			// 移動
+			map.panTo(marker.getPosition());
+			
+			// 吹き出し表示
+			var infowin = new google.maps.InfoWindow({
+				position: marker.getPosition(),
+				content: marker.getTitle()
 			});
+			infowin.open(map);
 		});
 	}
 
@@ -77,7 +74,6 @@ var map_controller = function() {
 			};
 
 			map = new google.maps.Map($("#map").get(0), opts);
-			geo = new google.maps.Geocoder();
 			setCurrentPosition();
 
 			$.getJSON('./data/map_data.json', function(json) {
@@ -86,8 +82,12 @@ var map_controller = function() {
 
 			$("body").on('click', '.dropdown-menu li a', function(event) {
 				event.preventDefault();
-				/* Act on the event */
 				setMarkers(data[$(this).attr('href')]);
+			});
+
+			$("#current").on('click', function(event) {
+				event.preventDefault();
+				setCurrentPosition();
 			});
 		},
 		
