@@ -3,6 +3,7 @@ var map_controller = function() {
 	var map;
 	var data;
 	var marker_list = null;
+	var infowin = null;
 
 	// 地図の中心を移動する
 	var chageCenter = function(_point) {
@@ -24,10 +25,11 @@ var map_controller = function() {
 	// 地図上にマーカーを置く
 	var setMarker = function(_point) {
 		var req = {"address": _point.address};
+
 		var opts = {
 			position: new google.maps.LatLng(_point.latitude, _point.longitude),
 			map: map,
-			title: "<strong>"+ _point.name + "</strong><p>" + _point.text + "</p>"
+			title: "<a href=\"" + _point.url + "\"><strong>"+ _point.name + "</strong><p>" + _point.text + "</p></a>"
 		}
 		var marker = new google.maps.Marker(opts);
 		marker_list.push(marker);
@@ -36,7 +38,7 @@ var map_controller = function() {
 			map.panTo(marker.getPosition());
 			
 			// 吹き出し表示
-			var infowin = new google.maps.InfoWindow({
+			infowin = new google.maps.InfoWindow({
 				position: marker.getPosition(),
 				content: marker.getTitle()
 			});
@@ -54,12 +56,21 @@ var map_controller = function() {
 
 		navigator.geolocation.getCurrentPosition(
 			function(posi) {
-				map.panTo(new google.maps.LatLng(posi.coords.latitude, posi.coords.longitude));
+				var posi = new google.maps.LatLng(posi.coords.latitude, posi.coords.longitude)
+				map.panTo(posi);
 				map.setZoom(15);
-			},
-			function(error) {
-				console.log(error);
-			}
+
+				var opts = {
+					position: posi,
+					map: map,
+					icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=|3276b1|000000'
+				}
+				new google.maps.Marker(opts);
+
+				},
+				function(error) {
+					console.log(error);
+				}
 		);
 	}
 
