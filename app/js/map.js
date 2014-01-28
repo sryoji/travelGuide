@@ -4,6 +4,7 @@ var map_controller = function() {
 	var geo;
 	var data;
 	var marker_list = null;
+	var infowin = null;
 
 	// 地図の中心を移動する
 	var chageCenter = function(_point) {
@@ -29,16 +30,17 @@ var map_controller = function() {
 			var opts = {
 				position: result[0].geometry.location,
 				map: map,
-				title: "<strong>"+ _point.name + "</strong><p>" + _point.text + "</p>"
+				title: "<a href=\"" + _point.url + "\"><strong>"+ _point.name + "</strong><p>" + _point.text + "</p></a>"
 			}
 			var marker = new google.maps.Marker(opts);
 			marker_list.push(marker);
 			google.maps.event.addListener(marker, 'click', function(){
 				// 移動
 				map.panTo(marker.getPosition());
-				
+				map.setZoom(15);
+
 				// 吹き出し表示
-				var infowin = new google.maps.InfoWindow({
+				infowin = new google.maps.InfoWindow({
 					position: marker.getPosition(),
 					content: marker.getTitle()
 				});
@@ -57,12 +59,21 @@ var map_controller = function() {
 
 		navigator.geolocation.getCurrentPosition(
 			function(posi) {
-				map.panTo(new google.maps.LatLng(posi.coords.latitude, posi.coords.longitude));
+				var posi = new google.maps.LatLng(posi.coords.latitude, posi.coords.longitude)
+				map.panTo(posi);
 				map.setZoom(15);
-			},
-			function(error) {
-				console.log(error);
-			}
+
+				var opts = {
+					position: posi,
+					map: map,
+					icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=|3276b1|000000'
+				}
+				new google.maps.Marker(opts);
+
+				},
+				function(error) {
+					console.log(error);
+				}
 		);
 	}
 
@@ -86,7 +97,6 @@ var map_controller = function() {
 
 			$("body").on('click', '.dropdown-menu li a', function(event) {
 				event.preventDefault();
-				/* Act on the event */
 				setMarkers(data[$(this).attr('href')]);
 			});
 		},
