@@ -8,6 +8,10 @@ var controller = function() {
 		$("body").on("click", "a.change-view", function(e){
 			e.preventDefault();
 			change_content($(this).attr("data-to"));
+
+			$("header button").addClass('collapsed');
+			$("#menu").removeClass('in');
+			$("#menu").addClass('collapse');
 		});
 	}
 

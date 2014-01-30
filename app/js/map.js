@@ -2,6 +2,7 @@ var map_controller = function() {
 
 	var map;
 	var data;
+	var my_marker = null;
 	var marker_list = null;
 	var infowin = null;
 
@@ -54,6 +55,10 @@ var map_controller = function() {
 
 	var setCurrentPosition = function() {
 
+		if(my_marker != null) {
+			my_marker.setMap(null);
+		}
+
 		navigator.geolocation.getCurrentPosition(
 			function(posi) {
 				var posi = new google.maps.LatLng(posi.coords.latitude, posi.coords.longitude)
@@ -65,7 +70,7 @@ var map_controller = function() {
 					map: map,
 					icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=|3276b1|000000'
 				}
-				new google.maps.Marker(opts);
+				my_marker = new google.maps.Marker(opts);
 
 				},
 				function(error) {

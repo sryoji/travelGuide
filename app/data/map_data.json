@@ -161,5 +161,23 @@
 			"url": "http://tabelog.com/hokkaido/A0101/A010102/1000912/"
 		}
 
+	],
+	"genghiskhan" : [
+		{
+			"name" : "ふくろう亭",
+			"address": "北海道札幌市中央区南八条西5 キャピタルＹＭＤビル　１Ｆ",
+			"latitude": 43.050189,
+			"longitude": 141.352272,
+			"text": "NAVER 1位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1001694/"
+		},
+		{
+			"name" : "だるま6.4店",
+			"address": "北海道札幌市中央区南6条西4丁目 野口ビル　１Ｆ",
+			"latitude": 43.052862,
+			"longitude": 141.353197,
+			"text": "NAVER 2位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1000016/"
+		}
 	]
 }
