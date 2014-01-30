@@ -178,6 +178,96 @@
 			"longitude": 141.353197,
 			"text": "NAVER 2位",
 			"url": "http://tabelog.com/hokkaido/A0101/A010103/1000016/"
+		},
+		{
+			"name" : "ツキサップじんぎすかんクラブ",
+			"address": "北海道札幌市豊平区月寒東三条11-2-5 八紘学園農場内",
+			"latitude": 43.026715,
+			"longitude": 141.419403,
+			"text": "NAVER 3位",
+			"url": "http://tabelog.com/hokkaido/A0103/A010303/1000285/"
+		},
+		{
+			"name" : "だるま本店",
+			"address": "北海道札幌市中央区南五条西4 クリスタルビル　１Ｆ",
+			"latitude": 43.053849,
+			"longitude": 141.352559,
+			"text": "NAVER 4位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1000007/"
+		},
+		{
+			"name" : "成吉思汗 だるま4・4店",
+			"address": "北海道札幌市中央区南四条西4",
+			"latitude": 43.055666,
+			"longitude": 141.352674,
+			"text": "NAVER 5位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1024278/"
+		},
+		{
+			"name" : "まつじん 新千歳空港店",
+			"address": "北海道千歳市美々987 新千歳空港ターミナルビル 3F",
+			"latitude": 42.787563,
+			"longitude": 141.681023,
+			"text": "NAVER 6位",
+			"url": "http://tabelog.com/hokkaido/A0107/A010701/1000826/"
+		},
+		{
+			"name" : "夜空のジンギスカン",
+			"address": "北海道札幌市中央区南4条西4 ＭＹプラザビル　10Ｆ",
+			"latitude": 43.055852,
+			"longitude": 141.351855,
+			"text": "NAVER 7位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1003369/"
+		},
+		{
+			"name" : "サッポロビール園 ジンギスカンホール",
+			"address": "北海道札幌市東区北七条東9-2-10 サッポロビール園　開拓使館",
+			"latitude": 43.071244,
+			"longitude": 141.369068,
+			"text": "NAVER 8位",
+			"url": "http://tabelog.com/hokkaido/A0102/A010202/1000159/"
+		},
+		{
+			"name" : "キリンビール園 本館 中島公園店",
+			"address": "北海道札幌市中央区南十条西1-1-60",
+			"latitude": 43.057054,
+			"longitude": 141.339622,
+			"text": "NAVER 9位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010104/1000315/"
+		},
+		{
+			"name" : "さっぽろジンギスカン 本店",
+			"address": "北海道札幌市中央区南五条西6-4-1 松田釣具店　２Ｆ",
+			"latitude": 43.050524,
+			"longitude": 141.339148,
+			"text": "NAVER 10位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1000040/"
+		},
+		{
+			"name" : "松尾ジンギスカン まつじん",
+			"address": "北海道札幌市中央区南一条西4-16-1 南舘ビル　１Ｆ",
+			"latitude": 43.059009,
+			"longitude": 141.351666,
+			"text": "NAVER 11位",
+			"url": "http://tabelog.com/hokkaido/A0101/A010103/1002898/"
+		}
+	],
+	"airport" : [
+		{
+			"name" : "函館空港",
+			"address": "北海道函館市高松町５１１",
+			"latitude": 41.775799,
+			"longitude": 140.814404,
+			"text": "",
+			"url": "http://www.airport.ne.jp/hakodate/"
+		},
+		{
+			"name" : "新千歳空港",
+			"address": "北海道千歳市美々",
+			"latitude": 42.7877110677796,
+			"longitude": 141.6815082431641,
+			"text": "",
+			"url": "http://www.airport.ne.jp/hakodate/"
 		}
 	]
 }
