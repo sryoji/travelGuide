@@ -288,7 +288,31 @@
 			"url": "http://www.gateauxkingdom.com/"
 		}
 	],
-	"yatai" : [
+	"hakodate" : [
+		{
+			"name" : "金森赤レンガ倉庫",
+			"address": "",
+			"latitude": ,
+			"longitude": ,
+			"text": "",
+			"url": ""
+		},
+		{
+			"name" : "函館山",
+			"address": "",
+			"latitude": ,
+			"longitude": ,
+			"text": "",
+			"url": ""
+		},
+		{
+			"name" : "五稜郭タワー",
+			"address": "",
+			"latitude": ,
+			"longitude": ,
+			"text": "",
+			"url": ""
+		},
 		{
 			"name" : "大門横丁 函館 ひかりの屋台",
 			"address": "北海道函館市松風町7",
