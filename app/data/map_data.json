@@ -273,9 +273,9 @@
 	"hotel": [
 		{
 			"name" : "ロワジールホテル函館",
-			"address": "",
-			"latitude": ,
-			"longitude": ,
+			"address": "北海道函館市若松町14番10号",
+			"latitude": 41.772826,
+			"longitude": 140.726446,
 			"text": "",
 			"url": "http://www.loisir-hakodate.com/"
 		},
@@ -286,6 +286,16 @@
 			"longitude": 141.359967,
 			"text": "",
 			"url": "http://www.gateauxkingdom.com/"
-		},
+		}
+	],
+	"yatai" : [
+		{
+			"name" : "大門横丁 函館 ひかりの屋台",
+			"address": "北海道函館市松風町7",
+			"latitude": 43.167832,
+			"longitude": 141.359967,
+			"text": "",
+			"url": "http://www.hakodate-tmo.com/"
+		}
 	]
 }
