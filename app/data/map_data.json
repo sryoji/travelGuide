@@ -269,5 +269,23 @@
 			"text": "",
 			"url": "http://www.airport.ne.jp/hakodate/"
 		}
+	],
+	"hotel": [
+		{
+			"name" : "ロワジールホテル函館",
+			"address": "",
+			"latitude": ,
+			"longitude": ,
+			"text": "",
+			"url": "http://www.loisir-hakodate.com/"
+		},
+		{
+			"name" : "シャトレーゼ ガトーキングダム サッポロ ホテル＆スパリゾート",
+			"address": "札幌市北区東茨戸132番地",
+			"latitude": 43.167832,
+			"longitude": 141.359967,
+			"text": "",
+			"url": "http://www.gateauxkingdom.com/"
+		},
 	]
 }
