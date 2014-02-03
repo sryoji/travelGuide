@@ -30,7 +30,7 @@ var map_controller = function() {
 		var opts = {
 			position: new google.maps.LatLng(_point.latitude, _point.longitude),
 			map: map,
-			title: "<a href=\"" + _point.url + "\"><strong>"+ _point.name + "</strong><p>" + _point.text + "</p></a>"
+			title: "<a target=\"_blank\" href=\"" + _point.url + "\"><strong>"+ _point.name + "</strong><p>" + _point.text + "</p></a>"
 		}
 		var marker = new google.maps.Marker(opts);
 		marker_list.push(marker);
