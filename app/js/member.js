@@ -1,7 +1,7 @@
 var member_controller = function() {
 
 	var data = {
-		"suzuk1_r": {"name": "suzuk1_r", "text": "しおり作った人"},
+		"suzuk1_r": {"name": "suzuk1_r", "text": "しおり作った人", "link": "<a href=lock/index.html>。</a>"},
 		"miz": {"name" : "Miz", "text": "我らが幹事様"},
 		"midsubmarine": {"name" : "あいだ", "text": "ぶらんでー"},
 		"gagaladynikov": {"name" : "朦朧おばさん", "text": "ファッションくず"},
@@ -19,10 +19,12 @@ var member_controller = function() {
 		init: function() {
 			$("body").on('click', '.to-detail', function(event) {
 				event.preventDefault();
-				console.log($(this).attr("href"));
 				var detail = $("#detail");
 				detail.find('h4').text(data[$(this).attr("href")]["name"]);
 				detail.find('.modal-body').text(data[$(this).attr("href")]["text"]);
+				if(data[$(this).attr("href")]["link"] != undefined){
+					detail.find('.modal-body').append(data[$(this).attr("href")]["link"]);
+				}
 				detail.modal("show");
 			});
 		}
