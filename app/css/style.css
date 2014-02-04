@@ -14,6 +14,12 @@
 	border-color: #463265;
 }
 
+.panel-purple .panel-title a{
+	color: #563d7c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .btn-purple {
 	color: #fff;
 	background-color: #563d7c;
