@@ -1,0 +1,7 @@
+AuthUserFile /Users/sryoji/.susukino
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

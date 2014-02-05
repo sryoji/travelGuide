@@ -14,6 +14,12 @@
 	border-color: #463265;
 }
 
+.panel-purple .panel-title a{
+	color: #563d7c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .btn-purple {
 	color: #fff;
 	background-color: #563d7c;
@@ -75,4 +81,15 @@ div.schedule-area {
 .schedule-time {
 	margin-right: 30px;
 	font-weight: bold;
+}
+
+
+.susukino .jumbotron {
+	padding: 30px;
+	margin-bottom: 30px;
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 2.1428571435;
+	color: white;
+	background-color: #641E4E;
 }

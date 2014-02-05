@@ -288,12 +288,36 @@
 			"url": "http://www.gateauxkingdom.com/"
 		}
 	],
-	"yatai" : [
+	"hakodate" : [
+		{
+			"name" : "金森赤レンガ倉庫",
+			"address": "北海道函館市末広町14番12号",
+			"latitude": 41.766246,
+			"longitude": 140.715639,
+			"text": "",
+			"url": "http://www.hakodate-kanemori.com/"
+		},
+		{
+			"name" : "函館山(ロープウェイ)",
+			"address": "北海道函館市元町19-7",
+			"latitude": 41.760908,
+			"longitude": 140.714301,
+			"text": "",
+			"url": "http://www.334.co.jp/jpn/"
+		},
+		{
+			"name" : "五稜郭タワー",
+			"address": "函館市五稜郭町43-9",
+			"latitude": 41.794761,
+			"longitude": 140.754052,
+			"text": "",
+			"url": "http://www.goryokaku-tower.co.jp/"
+		},
 		{
 			"name" : "大門横丁 函館 ひかりの屋台",
 			"address": "北海道函館市松風町7",
-			"latitude": 43.167832,
-			"longitude": 141.359967,
+			"latitude": 41.772626,
+			"longitude": 140.730335,
 			"text": "",
 			"url": "http://www.hakodate-tmo.com/"
 		}
